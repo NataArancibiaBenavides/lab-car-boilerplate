@@ -1,0 +1,96 @@
+.navbar{
+	background-color: #FFFFFF;
+	border:none;
+}
+.container-fluid{
+	padding-right: 0px;
+  padding-left: 0px;
+}
+
+.na{
+	margin-top: 10px;
+}
+.na a{
+	color:#000;
+}
+
+.caja1{
+	background-image: url(../assets/images/taxi.jpg);
+	width: 100%;
+	height: 50%;
+	border:none;
+	background-position: center 90%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 640px;
+
+}
+.jumbotron{
+	border: 1px dotted #ff8833;
+	margin-top: 130px;
+	width:550px;
+	height: 400px;
+	background-color:#F7B617;
+  background-position: right;
+}
+.jumbotron img{
+	color:#fff;
+}
+.caja2 h2{
+	margin-top:0px;
+	margin-right:0px;
+	color: #fff;
+
+}
+.caja2 p{
+	margin-top:20px;
+	color:#fff;
+}
+.btn-default{
+	border: none;
+	color:#4D4747;
+
+}
+   .caja2 hr{
+   	position: relative;
+   	top:20px;
+	  background-color:red;
+	  max-width: 30rem;
+    padding: 0;
+    text-align: center;
+    border: none;
+    border-top: solid #fff .25rem;
+    margin-top: 0rem;
+    margin-bottom: 2.5rem;
+
+}
+.caja2 h4{
+	position: absolute;
+	top:375px;
+	background-color:#F7B617;
+	color:#fff;
+	text-align: center;
+	width: 100px;
+	margin-left: 170px;
+	margin-bottom: 140px;
+	display: inline-block;
+}
+
+.boton2{
+	margin-top: 30px;
+}
+.caja3{
+	width: 100%;
+	background-color:#F7B617;
+
+}
+.caja3 img{
+	width: 250px;
+	padding: 20px;
+}
+.cj{
+	width: 70%;
+	margin-top: 50px;
+	margin-left: 0px;
+	border:solid 1px #fff;
+}
