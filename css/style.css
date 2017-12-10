@@ -93,8 +93,8 @@ aside{
 	margin-left: 50px;
 }
 .cj{
-	width: 70%;
-	margin-top: 50px;
+	width: 60%;
+	margin-top: 670px;
 	margin-bottom: 30px;
 	margin-left: 0px;
 	border:solid 1px #fff;
@@ -129,7 +129,6 @@ margin-top: 60px;
 }
 .caja5Mayor {
 	
-	margin-top: 150px;
 	width:550px;
 	height:200px;
 	background:#2e2f307a 10%;
@@ -151,10 +150,59 @@ margin-top: 60px;
 	background:#F7B617;
 	color:#fff;
 }
+/*Seccion Tarifa*/
 
+.Cajatarifa{
+	padding: 0px;
+	width: 100%;
+	background: #F7B617;
+	height: 700px;
+	color: #fff;
+	
+}
+.Cajatarifa h1{
+	margin-left: 50px;
 
-/*media queries version movil*/
-@media only screen and (min-width: 540px) and (max-width: 700px) {
+}
+.Cajatarifa h3{
+	margin-left: 50px;
+}
+.CajaInput{
+	margin: 10px;
+}
+#Ingreso1 input{
+	margin-top: 50px;
+	margin-left:60px;
+	width: 50%;
+	background-color: #F7B617;
+	color:#fff;
+
+}
+
+#CajaIcono2 img{
+	margin-left:50px;
+	margin-top: 190px; 
+}
+.Mapa{
+	margin-top: 20px;
+}
+
+.PiePagina{
+	background: #131212;
+}
+.PiePagina p{
+	margin-left: 50px;
+}
+.PrimeraFila li a{
+	color:#fff;
+	list-style: none;
+	text-decoration: none;
+	
+
+}
+
+/* media queries vista en pantalla Lg*/
+@media only screen and (min-width:450px) and (max-width: 720px) {
 	.col-xs-12{
 		padding: 0;
 	}
@@ -162,3 +210,14 @@ margin-top: 60px;
 		padding: 0;
 		margin: 0;
 	}
+
+	div.cajaMovil{
+		display: none;
+	}
+
+
+/*media queries vista dispositivos moviles*/
+	@media only screen (max-width: 449px) {
+		div.cajaMovil{
+			display: block;
+		}
