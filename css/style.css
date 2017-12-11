@@ -102,7 +102,7 @@ aside{
 }
 .cj img{
 	margin-left: 80px;
-margin-top: 60px;
+  margin-top: 60px;
 	height:350px;
 }
 .cj h2{
@@ -114,7 +114,7 @@ margin-top: 60px;
 
 	font-size: 20px;
 	color:#fff;
-	line-height: 10px;
+	line-height:20px;
 }
 
 .caja4{
@@ -167,10 +167,10 @@ margin-top: 60px;
 .Cajatarifa h3{
 	margin-left: 50px;
 }
-.CajaInput{
-	margin: 10px;
+.icono1{
+	margin-left: 50px;
 }
-#Ingreso1 input{
+.icono1 input{
 	margin-top: 50px;
 	margin-left:60px;
 	width: 50%;
@@ -179,9 +179,9 @@ margin-top: 60px;
 
 }
 
-#CajaIcono2 img{
-	margin-left:50px;
-	margin-top: 190px; 
+.Cajatarifa button{
+	margin-left: 100px;
+	margin-top: 50px;
 }
 .Mapa{
 	margin-top: 20px;
@@ -193,12 +193,36 @@ margin-top: 60px;
 .PiePagina p{
 	margin-left: 50px;
 }
-.PrimeraFila li a{
+.PrimeraFila li {
 	color:#fff;
 	list-style: none;
 	text-decoration: none;
-	
+}
+.PrimeraFila a{
+	color:#fff;
+}
 
+.SegundaFila li{
+	color:#fff;
+	list-style: none;
+	text-decoration: none;
+
+}
+.SegundaFila a{
+	color:#fff;
+	}
+
+.Iconos i{
+	color:#fff;
+	margin-left: 5px;
+	padding-left: 10px;
+
+}
+
+.Cajatarifa .Mapa p img{
+  margin-left: 100px;
+	width: 80%;
+	
 }
 
 /* media queries vista en pantalla Lg*/
